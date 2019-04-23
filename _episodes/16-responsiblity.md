@@ -1,5 +1,5 @@
 ---
-title: "Using resources effectively"
+title: "Final Words"
 teaching: 10
 exercises: 5
 questions:
