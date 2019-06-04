@@ -77,7 +77,7 @@ $ ls -l
 ```
 {: .bash}
 ```
--rw-rw-r--. 1 jeff jeff 12534006 Jan 16 18:50 bash-lesson.tar.gz
+-rw-rw-r--. 1 jeff jeff 12534006 Jan 16 18:50 bash-lesson.zip
 -rw-rw-r--. 1 jeff jeff       40 Jan 16 19:41 demo.sh
 -rw-rw-r--. 1 jeff jeff 77426528 Jan 16 18:50 dmel-all-r6.19.gtf
 -rw-r--r--. 1 jeff jeff   721242 Jan 25  2016 dmel_unique_protein_isoforms_fb_2016_01.tsv
@@ -116,7 +116,7 @@ $ ls -l
 ```
 {: .bash}
 ```
--rw-rw-r--. 1 jeff jeff 12534006 Jan 16 18:50 bash-lesson.tar.gz
+-rw-rw-r--. 1 jeff jeff 12534006 Jan 16 18:50 bash-lesson.zip
 -rwxrwxr-x. 1 jeff jeff       40 Jan 16 19:41 demo.sh
 -rw-rw-r--. 1 jeff jeff 77426528 Jan 16 18:50 dmel-all-r6.19.gtf
 -rw-r--r--. 1 jeff jeff   721242 Jan 25  2016 dmel_unique_protein_isoforms_fb_2016_01.tsv
@@ -321,7 +321,7 @@ done
 ```
 {: .bash}
 ```
-bash-lesson.tar.gz
+bash-lesson.zip
 gene_association.fb.gz
 ```
 {: .output}

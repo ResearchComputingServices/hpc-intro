@@ -22,11 +22,10 @@ which is much more straightforwards.
 
 To download files from the internet, 
 the easiest tool to use is `wget`.
-The syntax is relatively straightforwards: `wget https://some/link/to/a/file.tar.gz`
-We've actually done this before to download our example files:
+The syntax is relatively straightforwards: `wget https://some/link/to/a/file.zip`:
 
 ```
-[remote]$ wget https://hpc-carpentry.github.io/hpc-intro/files/bash-lesson.tar.gz
+[remote]$ wget https://researchcomputingservices.github.io/hpc-intro/files/bash-lesson.zip
 ```
 {: .bash}
 

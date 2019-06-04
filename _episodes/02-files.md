@@ -230,18 +230,10 @@ large and complex file type used in bioinformatics- a .gtf file. The GTF2
 format is commonly used to describe the location of genetic features in a
 genome.
 
-Let's grab and unpack a set of demo files for use later.
-To do this, we'll use `wget` (`wget link` downloads a file from a link).
-```
-wget http://hpc-carpentry.github.io/hpc-intro/files/bash-lesson.tar.gz
-```
-{: .bash}
-
-You'll commonly encounter `.tar.gz` archives while working in UNIX. 
-To extract the files from a `.tar.gz` file, we run the command `tar -xvf filename.tar.gz`:
 
 ```
-tar -xvf bash-lesson.tar.gz
+cd ~/Desktop/bash-lesson
+ls
 ```
 {: .bash}
 ```
@@ -269,7 +261,7 @@ SRR307030_2.fastq
 
 > ## Unzipping files
 >
-> We just unzipped a .tar.gz file for this example. What if we run into other file formats that we need to unzip? Just use the handy reference below:
+> We already unpacked the ZIP file in the setup instructions.  What if we want to unpack a compressed file from the Linux shell?
 >
 > * `gunzip` unzips .gz files
 > * `unzip` unzips .zip files

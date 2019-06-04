@@ -17,12 +17,11 @@ keypoints:
 ---
 
 > ## Required files
-> If you didn't get them in the last lesson, 
-> make sure to download the example files used in the next few sections:
+> If you didn't get them in the setup, 
+> make sure to download the example files used in the next few
+> sections, and place the ZIP file on your desktop
 > 
-> **Using wget** - `wget http://hpc-carpentry.github.io/hpc-intro/files/bash-lesson.tar.gz`
->
-> **Using a web browser** - [http://hpc-carpentry.github.io/hpc-intro/files/bash-lesson.tar.gz](http://hpc-carpentry.github.io/hpc-intro/files/bash-lesson.tar.gz)
+[http://researchcomputingservices.github.io/hpc-intro/files/bash-lesson.zip](http://researchcomputingservices.github.io/hpc-intro/files/bash-lesson.zip)
 {: .testimonial}
 
 Now that we know most of the basic UNIX commands, we are going to explore
@@ -38,11 +37,13 @@ files in a directory for instance. `*` by itself means all files. Let's use
 our example data to see what I mean.
 
 ```
+$ cd Desktop
+$ unzip bash-lesson.zip
+$ cd bash-lesson
 $ ls
 ```
 {: .bash}
 ```
-bash-lesson.tar.gz                           SRR307024_2.fastq  SRR307028_1.fastq
 dmel-all-r6.19.gtf                           SRR307025_1.fastq  SRR307028_2.fastq
 dmel_unique_protein_isoforms_fb_2016_01.tsv  SRR307025_2.fastq  SRR307029_1.fastq
 gene_association.fb                          SRR307026_1.fastq  SRR307029_2.fastq
@@ -98,7 +99,7 @@ $ wc -l *
 ```
 {: .bash}
 ```
-    53037 bash-lesson.tar.gz
+    53037 bash-lesson.zip
    542048 dmel-all-r6.19.gtf
     22129 dmel_unique_protein_isoforms_fb_2016_01.tsv
    106290 gene_association.fb
@@ -155,7 +156,7 @@ $ cat test.txt
 ```
 this is a test
 
-bash-lesson.tar.gz                           fastq
+bash-lesson.zip                           fastq
 dmel-all-r6.19.gtf                           gene_association.fb
 dmel_unique_protein_isoforms_fb_2016_01.tsv  test.txt
 
@@ -173,7 +174,7 @@ $ cat word_counts.txt
 ```
 wc: fastq: Is a directory
 
-    53037 bash-lesson.tar.gz
+    53037 bash-lesson.zip
    542048 dmel-all-r6.19.gtf
     22129 dmel_unique_protein_isoforms_fb_2016_01.tsv
         0 fastq
@@ -220,7 +221,7 @@ $ cat word_counts.txt
 ```
 {: .bash}
 ```
-    53037 bash-lesson.tar.gz
+    53037 bash-lesson.zip
    542048 dmel-all-r6.19.gtf
     22129 dmel_unique_protein_isoforms_fb_2016_01.tsv
 wc: fastq: Is a directory
