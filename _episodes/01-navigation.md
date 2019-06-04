@@ -18,6 +18,70 @@ keypoints:
 - "Hit `tab` to autocomplete whatever you're currently typing."
 ---
 
+## Opening a Terminal
+
+This afternoon we will connect to a supercomputer to run commands
+remotely.  But this morning we will start by running Linux commands on
+our laptops using terminal software.
+
+Different operating systems have different terminals, none of which
+are exactly the same in terms of their features and abilities while
+working on the operating system.
+
+### Linux
+There are many different versions (aka "flavours") of Linux and how to open a
+terminal window can change between flavours. Fortunately most Linux users
+already know how to open a terminal window since it is a common part of the
+workflow for Linux users. If this is something that you do not know how to do
+then a quick search on the Internet for "how to open a terminal window in"
+with your particular Linux flavour appended to the end should quickly give
+you the directions you need.
+
+A very popular version of Linux is Ubuntu. There are many ways to open a
+terminal window in Ubuntu but a very fast way is to use the terminal shortcut
+key sequence: Ctrl+Alt+T.
+
+### Mac
+
+Macs have had a terminal built in since the first version of OSX since it is
+built on a Linux flavour known as BSD (Berkeley Systems Designs). 
+The terminal can be quickly opened through the use of the Searchlight tool. 
+Hold down the command key and press the spacebar. 
+In the search bar that shows up type "terminal", choose the terminal app from the list of results (it will
+look like a tiny, black computer screen) and you will be presented with a terminal window.
+Alternatively, you can find Terminal under "Utilities" in the Applications menu.
+
+### Windows
+
+Windows has its own command-line interface known as the "Command
+Prompt" that has its roots in MS-DOS (Microsoft Disk Operating
+System).  However, it is not compatible with the Linux shell and so
+one needs to be installed.
+
+MobaXterm is a terminal window emulator for Windows and the home edition can
+be downloaded for free from
+[mobatek.net](https://mobaxterm.mobatek.net/download-home-edition.html). If
+you follow the link you will note that there are two editions of the home
+version available: Portable and Installer. The portable edition puts all
+MobaXterm content in a folder on the desktop (or anywhere else you would like
+it) so that it is easy add plug-ins or remove the software. The installer
+edition adds MobaXterm to your Windows installation as any other program you
+might install. If you are not sure that you will continue to use MobaXterm in
+the future you are likely best to choose the portable edition.
+
+Download the version that you would like to use and install it as you would
+any other software on your Windows installation. Once the software is
+installed you can run it by either opening the folder installed with the
+portable edition and double-clicking on the file named
+*MobaXterm_Personal_10.2* or, if the installer edition was used, finding the
+executable through either the start menu or the Windows search option.
+
+Once the MobaXterm window is open you should see a large button in the middle
+of that window with the text "Start Local Terminal". Click this button and
+you will have a terminal window at your disposal.
+
+## Using the Terminal
+
 At the point in this lesson, we've just logged into the system. 
 Nothing has happened yet, and we're not going to be able to do anything until we learn a few basic commands. 
 By the end of this lesson, you will know how to "move around" the system and look at what's there.

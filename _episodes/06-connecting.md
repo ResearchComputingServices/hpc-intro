@@ -13,18 +13,14 @@ keypoints:
 
 ## Opening a Terminal
 
-Connecting to an HPC system is most often done through a tool known as "SSH"
-(Secure SHell) and usually SSH is run through a terminal. So, to begin using
-an HPC system we need to begin by opening a terminal. Different operating
-systems have different terminals, none of which are exactly the same in terms
-of their features and abilities while working on the operating system. When
-connected to the remote system the experience between terminals will be
-identical as each will faithfully present the same experience of using that
-system.
+We used a terminal application on our laptops this morning to learn
+how to use Linux shell commands on our laptops.
 
-Here is the process for opening a terminal in each operating system.
+We will now see how to use Linux shell commands on a remote computer.  Connecting to a remove Linux computer is most often done through a tool known as "SSH"
+(Secure SHell) and usually SSH is run through a terminal.  We will now briefly review the available terminal applications and how to use them for an ssh connection.
 
 ### Linux
+
 There are many different versions (aka "flavours") of Linux and how to open a
 terminal window can change between flavours. Fortunately most Linux users
 already know how to open a terminal window since it is a common part of the
@@ -49,31 +45,11 @@ Alternatively, you can find Terminal under "Utilities" in the Applications menu.
 
 ### Windows
 
-While Windows does have a command-line interface known as the "Command
-Prompt" that has its roots in MS-DOS (Microsoft Disk Operating System) it
-does not have an SSH tool built into it and so one needs to be installed.
-There are a variety of programs that can be used for this, two common ones we
-describe here, as follows:
-
 #### MobaXterm
 
-MobaXterm is a terminal window emulator for Windows and the home edition can
-be downloaded for free from
-[mobatek.net](https://mobaxterm.mobatek.net/download-home-edition.html). If
-you follow the link you will note that there are two editions of the home
-version available: Portable and Installer. The portable edition puts all
-MobaXterm content in a folder on the desktop (or anywhere else you would like
-it) so that it is easy add plug-ins or remove the software. The installer
-edition adds MobaXterm to your Windows installation as any other program you
-might install. If you are not sure that you will continue to use MobaXterm in
-the future you are likely best to choose the portable edition.
-
-Download the version that you would like to use and install it as you would
-any other software on your Windows installation. Once the software is
-installed you can run it by either opening the folder installed with the
-portable edition and double-clicking on the file named
-*MobaXterm_Personal_10.2* or, if the installer edition was used, finding the
-executable through either the start menu or the Windows search option.
+We saw MobaXterm this morning, which is a terminal window emulator for
+Windows available at
+[mobatek.net](https://mobaxterm.mobatek.net/download-home-edition.html).
 
 Once the MobaXterm window is open you should see a large button in the middle
 of that window with the text "Start Local Terminal". Click this button and
@@ -85,7 +61,7 @@ It is strictly speaking not necessary to have a terminal running on your local c
 
 PuTTY is available for free download from [www.putty.org](http://www.putty.org/).  Download the version that is correct for your operating system and install it as you would other software on you Windows system.  Once installed it will be available through the start menu or similar.
 
-Running PuTTY will not initially produce a terminal but intsead a window full of connection options.  Putting the address of the remote system in the "Host Name (or IP Address)" box and either pressing enter or clicking the "Open" button should begin the connection process.
+Running PuTTY will not initially produce a terminal but instead a window full of connection options.  Putting the address of the remote system in the "Host Name (or IP Address)" box and either pressing enter or clicking the "Open" button should begin the connection process.
 
 If this works you will see a terminal window open that prompts you for a username through the "login as:" prompt and then for a password.  If both of these are passed correctly then you will be given access to the system and will see a message saying so within the terminal.  If you need to escape the authentication process you can hold the control/ctrl key and press the c key to exit and start again.
 
