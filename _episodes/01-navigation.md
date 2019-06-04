@@ -138,21 +138,6 @@ $ ls
 
 `ls` prints the names of the files and directories in the current directory in alphabetical order, arranged neatly into columns.
 
-> ## Differences between remote and local system
->
-> Open a second terminal window on your local computer and run the `ls` command without logging in remotely.
-> What differences do you see?
->
-> > ## Solution
-> > You would likely see something more like this:
-> > ~~~
-> > Applications Documents    Library      Music        Public
-> > Desktop      Downloads    Movies       Pictures
-> > ~~~
-> > In addition you should also note that the preamble before the prompt (`$`) is different.  This is very important for making sure you know what system you are issuing commands on when in the shell.
-> {: .solution}
-{: .challenge}
-
 If nothing shows up when you run `ls`, it means that nothing's there. Let's make a directory for us to play with.
 
 `mkdir <new directory name>` makes a new directory with that name in your current location. Notice that this command required two pieces of input: the actual name of the command (`mkdir`) and an argument that specifies the name of the directory you wish to create.
@@ -207,17 +192,6 @@ boot  dev    home  lib     local  media         nix  proc  ram      run   scratc
 
 The "home" directory is the one where we generally want to keep all of our files. 
 Other folders on a UNIX OS contain system files, and get modified and changed as you install new software or upgrade your OS.
-
-> ## Using HPC filesystems
-> On HPC systems, you have a number of places where you can store your files. These differ in both the amount of space allocated and whether or not they are backed up.
->
-> File storage locations:  
->
-> * **Network filesystem** - Your home directory is an example of a network filesystem. Data stored here is available throughout the HPC system and files stored here are backed up. Files stored here are typically slower to access, the data is actually stored on another computer and is being transmitted and made available over the network! `/project` and `/home` are both network filesystems. 
-> * **Scratch** - Some systems may offer "scratch" space. Scratch space is typically faster to use than your home directory or network filesystem, but is not usually backed up, and should not be used for long term storage. In the last example, `/scratch` is a scratch drive.
-> * **Local scratch (job only)** - Some systems may offer local scratch space while executing a job. Such storage is very fast, but will be deleted at the end of your job.
-> * **Ramdisk (job only)** - Some systems may let you store files in a "ramdisk" while running a job, where files are stored directly in the computer's memory. This extremely fast, but files stored here will count against your job's memory usage and be deleted at the end of your job. 
-{: .callout}
 
 There are several other useful shortcuts you should be aware of.  
 
