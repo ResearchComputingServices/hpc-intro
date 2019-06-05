@@ -90,6 +90,8 @@ drwxrwxr-x. 2 jeff jeff     4096 Jan 16 19:16 fastq
 
 That's a huge amount of output. Let's see if we can understand what it is, working left to right.
 
+![File Permissions](../fig/permissions.svg)
+
 + **1st column - Permissions:** On the very left side, there is a string of the characters `d`, `r`, `w`, `x`, and `-`. The `d` simply indicates if something is a directory (there is a `-` in that spot if it is not a directory). The other `r`, `w`, `x` bits indicates permission to **R**ead **W**rite and e**X**ecute a file. There are three columns of `rwx` permissions following the spot for `d`. If a user is missing a permission to do something, it's indicated by a `-`.
     + The first column of `rwx` are the permissions that the owner has (in this case the owner is `jeff`).
     + The second set of `rwx`s are permissions that other members of the owner's group share (in this case, the group is also named `jeff`).
