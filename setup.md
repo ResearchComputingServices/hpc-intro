@@ -8,7 +8,7 @@ There are several pieces of software you will wish to install on your laptop bef
 
 ## Windows 10 Users
 
- 1. Download [bash-lesson.zip]({{ page.root}}//files/bash-lesson.zip).  Unzip the bash-lesson folder to your Desktop.
+ 1. Download [bash-lesson.zip]({{ page.root}}//hpc-intro/files/bash-lesson.zip).  Unzip the bash-lesson folder to your Desktop.
  2. Install [MobaXterm Home Edition](http://mobaxterm.mobatek.net/download.html)
     - We recommend the "Installer edition" (green button)
     - Unzip the MobaXterm Installer ZIP before running the MSI installer file
@@ -24,7 +24,7 @@ There are several pieces of software you will wish to install on your laptop bef
 ## Linux Users
 
 The instructions for Linux depend on your Linux distribution and setup.  You will need to follow these general steps:
- 1. Download [bash-lesson.zip]({{ page.root}}//files/bash-lesson.zip). Unzip the bash-lesson folder to your Desktop.
+ 1. Download [bash-lesson.zip]({{ page.root}}//hpc-intro/files/bash-lesson.zip). Unzip the bash-lesson folder to your Desktop.
  2. Open your Linux version's Terminal application
 
 
